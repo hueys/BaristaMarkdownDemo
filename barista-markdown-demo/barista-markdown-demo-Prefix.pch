@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'barista-markdown-demo' target in the 'barista-markdown-demo' project
+//
+
+#ifdef __OBJC__
+   #import <Foundation/Foundation.h>
+#endif
