@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35302E92DB1E43ABB561EC88 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2E5BB1CC664FE3BCCBFC52 /* libPods.a */; };
+		AA1D983217DCD67E00C838A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1D983117DCD67E00C838A9 /* Cocoa.framework */; };
+		AA1D983C17DCD67E00C838A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA1D983A17DCD67E00C838A9 /* InfoPlist.strings */; };
+		AA1D983E17DCD67E00C838A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D983D17DCD67E00C838A9 /* main.m */; };
+		AA1D984517DCD67E00C838A9 /* SHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D984417DCD67E00C838A9 /* SHAppDelegate.m */; };
+		AA1D984817DCD67E00C838A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1D984617DCD67E00C838A9 /* MainMenu.xib */; };
+		AA1D985217DCD6DC00C838A9 /* BaristaMarkdownDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D984F17DCD6DC00C838A9 /* BaristaMarkdownDemo.m */; };
+		AA1D985317DCD6DC00C838A9 /* MarkdownTemplateRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D985117DCD6DC00C838A9 /* MarkdownTemplateRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1D982E17DCD67E00C838A9 /* Barista Markdown Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barista Markdown Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1D983117DCD67E00C838A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA1D983417DCD67E00C838A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA1D983617DCD67E00C838A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA1D983917DCD67E00C838A9 /* Barista Markdown Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Barista Markdown Demo-Info.plist"; sourceTree = "<group>"; };
+		AA1D983B17DCD67E00C838A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA1D983D17DCD67E00C838A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA1D983F17DCD67E00C838A9 /* Barista Markdown Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Barista Markdown Demo-Prefix.pch"; sourceTree = "<group>"; };
+		AA1D984317DCD67E00C838A9 /* SHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAppDelegate.h; sourceTree = "<group>"; };
+		AA1D984417DCD67E00C838A9 /* SHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAppDelegate.m; sourceTree = "<group>"; };
+		AA1D984717DCD67E00C838A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA1D984E17DCD6DC00C838A9 /* BaristaMarkdownDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaristaMarkdownDemo.h; sourceTree = "<group>"; };
+		AA1D984F17DCD6DC00C838A9 /* BaristaMarkdownDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaristaMarkdownDemo.m; sourceTree = "<group>"; };
+		AA1D985017DCD6DC00C838A9 /* MarkdownTemplateRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownTemplateRenderer.h; sourceTree = "<group>"; };
+		AA1D985117DCD6DC00C838A9 /* MarkdownTemplateRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTemplateRenderer.m; sourceTree = "<group>"; };
+		CC2E5BB1CC664FE3BCCBFC52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F712510F299C481C995F8DBC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA1D982B17DCD67E00C838A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D983217DCD67E00C838A9 /* Cocoa.framework in Frameworks */,
+				35302E92DB1E43ABB561EC88 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1D982517DCD67E00C838A9 = {
+			isa = PBXGroup;
+			children = (
+				AA1D983717DCD67E00C838A9 /* Barista Markdown Demo */,
+				AA1D985417DCD6F400C838A9 /* Config */,
+				AA1D983017DCD67E00C838A9 /* Frameworks */,
+				AA1D982F17DCD67E00C838A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA1D982F17DCD67E00C838A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D982E17DCD67E00C838A9 /* Barista Markdown Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA1D983017DCD67E00C838A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D983417DCD67E00C838A9 /* AppKit.framework */,
+				AA1D983117DCD67E00C838A9 /* Cocoa.framework */,
+				AA1D983617DCD67E00C838A9 /* Foundation.framework */,
+				CC2E5BB1CC664FE3BCCBFC52 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA1D983717DCD67E00C838A9 /* Barista Markdown Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D984E17DCD6DC00C838A9 /* BaristaMarkdownDemo.h */,
+				AA1D984F17DCD6DC00C838A9 /* BaristaMarkdownDemo.m */,
+				AA1D985017DCD6DC00C838A9 /* MarkdownTemplateRenderer.h */,
+				AA1D985117DCD6DC00C838A9 /* MarkdownTemplateRenderer.m */,
+				AA1D984317DCD67E00C838A9 /* SHAppDelegate.h */,
+				AA1D984417DCD67E00C838A9 /* SHAppDelegate.m */,
+				AA1D984617DCD67E00C838A9 /* MainMenu.xib */,
+				AA1D983817DCD67E00C838A9 /* Supporting Files */,
+			);
+			path = "Barista Markdown Demo";
+			sourceTree = "<group>";
+		};
+		AA1D983817DCD67E00C838A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1D983917DCD67E00C838A9 /* Barista Markdown Demo-Info.plist */,
+				AA1D983A17DCD67E00C838A9 /* InfoPlist.strings */,
+				AA1D983D17DCD67E00C838A9 /* main.m */,
+				AA1D983F17DCD67E00C838A9 /* Barista Markdown Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA1D985417DCD6F400C838A9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F712510F299C481C995F8DBC /* Pods.xcconfig */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA1D982D17DCD67E00C838A9 /* Barista Markdown Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA1D984B17DCD67E00C838A9 /* Build configuration list for PBXNativeTarget "Barista Markdown Demo" */;
+			buildPhases = (
+				B68EF8A7EF6A46E4B4B29634 /* Check Pods Manifest.lock */,
+				AA1D982A17DCD67E00C838A9 /* Sources */,
+				AA1D982B17DCD67E00C838A9 /* Frameworks */,
+				AA1D982C17DCD67E00C838A9 /* Resources */,
+				9653DEDAB056425C89F34411 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Barista Markdown Demo";
+			productName = "Barista Markdown Demo";
+			productReference = AA1D982E17DCD67E00C838A9 /* Barista Markdown Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA1D982617DCD67E00C838A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Steven Huey";
+			};
+			buildConfigurationList = AA1D982917DCD67E00C838A9 /* Build configuration list for PBXProject "Barista Markdown Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA1D982517DCD67E00C838A9;
+			productRefGroup = AA1D982F17DCD67E00C838A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1D982D17DCD67E00C838A9 /* Barista Markdown Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA1D982C17DCD67E00C838A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D983C17DCD67E00C838A9 /* InfoPlist.strings in Resources */,
+				AA1D984817DCD67E00C838A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9653DEDAB056425C89F34411 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68EF8A7EF6A46E4B4B29634 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA1D982A17DCD67E00C838A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D983E17DCD67E00C838A9 /* main.m in Sources */,
+				AA1D984517DCD67E00C838A9 /* SHAppDelegate.m in Sources */,
+				AA1D985217DCD6DC00C838A9 /* BaristaMarkdownDemo.m in Sources */,
+				AA1D985317DCD6DC00C838A9 /* MarkdownTemplateRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA1D983A17DCD67E00C838A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1D983B17DCD67E00C838A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA1D984617DCD67E00C838A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA1D984717DCD67E00C838A9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA1D984917DCD67E00C838A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA1D984A17DCD67E00C838A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA1D984C17DCD67E00C838A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F712510F299C481C995F8DBC /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barista Markdown Demo/Barista Markdown Demo-Prefix.pch";
+				INFOPLIST_FILE = "Barista Markdown Demo/Barista Markdown Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA1D984D17DCD67E00C838A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F712510F299C481C995F8DBC /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Barista Markdown Demo/Barista Markdown Demo-Prefix.pch";
+				INFOPLIST_FILE = "Barista Markdown Demo/Barista Markdown Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA1D982917DCD67E00C838A9 /* Build configuration list for PBXProject "Barista Markdown Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1D984917DCD67E00C838A9 /* Debug */,
+				AA1D984A17DCD67E00C838A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA1D984B17DCD67E00C838A9 /* Build configuration list for PBXNativeTarget "Barista Markdown Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1D984C17DCD67E00C838A9 /* Debug */,
+				AA1D984D17DCD67E00C838A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA1D982617DCD67E00C838A9 /* Project object */;
+}
