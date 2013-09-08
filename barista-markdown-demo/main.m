@@ -8,14 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#import "BaristaMarkdownDemo.h"
+
 int main(int argc, const char * argv[])
 {
    @autoreleasepool
    {
-
-      // insert code here...
-      NSLog(@"Hello, World!");
-
+      BaristaMarkdownDemo* demo = [[BaristaMarkdownDemo alloc] init];
+      
+      [demo runWithURL:nil];
    }
    
    return 0;
