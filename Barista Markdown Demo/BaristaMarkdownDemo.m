@@ -22,6 +22,11 @@
 
 @implementation BaristaMarkdownDemo
 
+- (void)dealloc
+{
+   [_server stopListening];
+}
+
 - (void)runWithURL:(NSURL*)serverRoot
 {
 	_server = [BARServer serverWithPort:3333];

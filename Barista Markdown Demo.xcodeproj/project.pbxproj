@@ -15,6 +15,7 @@
 		AA1D984817DCD67E00C838A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1D984617DCD67E00C838A9 /* MainMenu.xib */; };
 		AA1D985217DCD6DC00C838A9 /* BaristaMarkdownDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D984F17DCD6DC00C838A9 /* BaristaMarkdownDemo.m */; };
 		AA1D985317DCD6DC00C838A9 /* MarkdownTemplateRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D985117DCD6DC00C838A9 /* MarkdownTemplateRenderer.m */; };
+		AA1D985717DCF54000C838A9 /* FileURLPathTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D985617DCF54000C838A9 /* FileURLPathTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		AA1D984F17DCD6DC00C838A9 /* BaristaMarkdownDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaristaMarkdownDemo.m; sourceTree = "<group>"; };
 		AA1D985017DCD6DC00C838A9 /* MarkdownTemplateRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownTemplateRenderer.h; sourceTree = "<group>"; };
 		AA1D985117DCD6DC00C838A9 /* MarkdownTemplateRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownTemplateRenderer.m; sourceTree = "<group>"; };
+		AA1D985517DCF54000C838A9 /* FileURLPathTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileURLPathTransformer.h; sourceTree = "<group>"; };
+		AA1D985617DCF54000C838A9 /* FileURLPathTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileURLPathTransformer.m; sourceTree = "<group>"; };
 		CC2E5BB1CC664FE3BCCBFC52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F712510F299C481C995F8DBC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -82,13 +85,15 @@
 		AA1D983717DCD67E00C838A9 /* Barista Markdown Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AA1D984617DCD67E00C838A9 /* MainMenu.xib */,
+				AA1D984317DCD67E00C838A9 /* SHAppDelegate.h */,
+				AA1D984417DCD67E00C838A9 /* SHAppDelegate.m */,
 				AA1D984E17DCD6DC00C838A9 /* BaristaMarkdownDemo.h */,
 				AA1D984F17DCD6DC00C838A9 /* BaristaMarkdownDemo.m */,
 				AA1D985017DCD6DC00C838A9 /* MarkdownTemplateRenderer.h */,
 				AA1D985117DCD6DC00C838A9 /* MarkdownTemplateRenderer.m */,
-				AA1D984317DCD67E00C838A9 /* SHAppDelegate.h */,
-				AA1D984417DCD67E00C838A9 /* SHAppDelegate.m */,
-				AA1D984617DCD67E00C838A9 /* MainMenu.xib */,
+				AA1D985517DCF54000C838A9 /* FileURLPathTransformer.h */,
+				AA1D985617DCF54000C838A9 /* FileURLPathTransformer.m */,
 				AA1D983817DCD67E00C838A9 /* Supporting Files */,
 			);
 			path = "Barista Markdown Demo";
@@ -216,6 +221,7 @@
 				AA1D984517DCD67E00C838A9 /* SHAppDelegate.m in Sources */,
 				AA1D985217DCD6DC00C838A9 /* BaristaMarkdownDemo.m in Sources */,
 				AA1D985317DCD6DC00C838A9 /* MarkdownTemplateRenderer.m in Sources */,
+				AA1D985717DCF54000C838A9 /* FileURLPathTransformer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
