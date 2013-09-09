@@ -8,10 +8,16 @@
 
 #import "SHAppDelegate.h"
 
+#import "BaristaMarkdownDemo.h"
 #import "FileURLPathTransformer.h"
 
 @interface SHAppDelegate ()
+{
+   BaristaMarkdownDemo* _demoServer;
+}
+
 @property (nonatomic, copy) NSURL* serverRootURL;
+@property (nonatomic, readonly) NSUInteger serverPort;
 @end
 
 @implementation SHAppDelegate
@@ -30,9 +36,15 @@
    }
 }
 
+- (NSUInteger)serverPort
+{
+   return (NSUInteger)[[self.serverPortField stringValue] integerValue];
+}
+
 #pragma mark - KVO
 
 // When self.serverRunning changes, notify observers of self.startAndStopButtonTitle
+// https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/KeyValueObserving/Articles/KVODependentKeys.html
 + (NSSet*)keyPathsForValuesAffectingStartAndStopButtonTitle
 {
    return [NSSet setWithObject:@"serverRunning"];
@@ -70,5 +82,20 @@
 - (IBAction)startOrStopServer:(id)sender
 {
    self.serverRunning = !(self.serverRunning);
+   
+   if (self.serverRunning)
+   {
+      _demoServer = [[BaristaMarkdownDemo alloc] init];
+      
+      if (_demoServer)
+      {
+         [_demoServer runWithURL:self.serverRootURL
+                          onPort:self.serverPort];
+      }
+   }
+   else
+   {
+      _demoServer = nil;
+   }
 }
 @end

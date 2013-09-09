@@ -27,11 +27,11 @@
    [_server stopListening];
 }
 
-- (void)runWithURL:(NSURL*)serverRoot
+- (void)runWithURL:(NSURL*)serverRoot onPort:(NSUInteger)port
 {
-	_server = [BARServer serverWithPort:3333];
+	_server = [BARServer serverWithPort:port];
 	
-   [_server addGlobalMiddleware:[MarkdownTemplateRenderer rendererWithViewsDirectoryURL:[serverRoot URLByAppendingPathComponent:@"views"]]];
+   [_server addGlobalMiddleware:[MarkdownTemplateRenderer rendererWithViewsDirectoryURL:serverRoot]];
 	
 	BARRouter *router = [[BARRouter alloc] init];
 	[_server addGlobalMiddleware:router];
@@ -41,7 +41,7 @@
 		BARResponse* response = [[BARResponse alloc] init];
 		response.statusCode = 200;
 		[response setViewToRender:parameters[@"view"]
-                     withObject:nil];
+                     withObject:@{}];
 		[connection sendResponse:response];
 		
 		return YES;

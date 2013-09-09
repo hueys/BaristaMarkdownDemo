@@ -10,6 +10,12 @@
 
 @interface BaristaMarkdownDemo : NSObject
 
-- (void)runWithURL:(NSURL*)serverRoot;
+/**
+ *	Run a Barista server on the given port, serving files from the provided file URL.
+ *
+ *	@param	serverRoot	file URL to the server root directory to serve files from
+ *	@param	port	port to listen for requests on
+ */
+- (void)runWithURL:(NSURL*)serverRoot onPort:(NSUInteger)port;
 
 @end

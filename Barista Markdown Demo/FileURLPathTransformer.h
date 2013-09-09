@@ -10,6 +10,10 @@
 
 extern const NSString* const kFileURLPathTransformer;
 
+/**
+ *	A NSValueTransformer subclass for converting between a file URL and it's path
+ * as an NSString instance.
+ */
 @interface FileURLPathTransformer : NSValueTransformer
 
 @end

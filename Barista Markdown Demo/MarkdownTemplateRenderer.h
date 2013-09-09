@@ -10,6 +10,12 @@
 
 #import "BARTemplateRenderer.h"
 
+/**
+ *	A BARTemplateRenderer based on the Mustache template renderer included with Barista
+ * that renders pages marked up with Markdown: http://daringfireball.net/projects/markdown/ .
+ *
+ * It relies on MMMarkdown available from: https://github.com/mdiep/MMMarkdown
+ */
 @interface MarkdownTemplateRenderer : BARTemplateRenderer
 +(instancetype)rendererWithViewsDirectoryURL:(NSURL *)url;
 

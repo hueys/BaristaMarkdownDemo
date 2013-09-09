@@ -31,7 +31,6 @@
         continueHandler:(void (^)(void))handler
 {
    NSString* viewName = [response customValueForKey:@"BARTemplateView"];
-   //id object = [response customValueForKey:@"BARTemplateViewObject"];
    
    if (viewName)
    {
